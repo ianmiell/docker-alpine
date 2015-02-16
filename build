@@ -3,7 +3,7 @@
 declare BUILD_IMAGE="${BUILD_IMAGE:-alpine-builder}"
 declare BUILD_PREFIX="${BUILD_PREFIX:-alpine-build-}"
 declare PREFIXES="${PREFIXES:-gliderlabs/alpine}"
-declare MIRROR="${MIRROR:-http://dl-4.alpinelinux.org/alpine}"
+declare MIRROR="${MIRROR:-http://alpine.gliderlabs.com/alpine}"
 declare VERSIONS="${VERSIONS:-versions/*}"
 
 build() {
